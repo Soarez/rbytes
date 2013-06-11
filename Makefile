@@ -1,9 +1,9 @@
-WAF=node-waf
+GYP=node-gyp
 
 build:
-	@$(WAF) configure build
+	@$(GYP) configure build
 
 clean:
-	@$(WAF) clean
+	@$(GYP) clean
 
 .PHONY: build clean

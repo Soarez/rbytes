@@ -132,3 +132,4 @@ void init(Handle<Object> target) {
   target->Set(String::NewSymbol("hexToBuf"),
           FunctionTemplate::New(HexToBuf)->GetFunction());
 }
+NODE_MODULE(binding, init)

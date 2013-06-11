@@ -8,5 +8,5 @@
   "url"           : "http://akdubya.github.com/rbytes/",
   "keywords"      : ["random", "crypto"],
   "main"          : "./index",
-  "scripts"       : { "install": "node-waf configure build" }
+  "scripts"       : { "install": "node-gyp configure build" }
 }
