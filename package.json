@@ -1,12 +1,19 @@
 {
-  "name"          : "rbytes",
-  "version"       : "0.0.2",
-  "description"   : "Generates cryptographically secure random byte sequences",
-  "author"        : "Aleksander Williams",
-  "contributors"  : [],
-  "engines"       : { "node": ">=0.3.0" },
-  "url"           : "http://akdubya.github.com/rbytes/",
-  "keywords"      : ["random", "crypto"],
-  "main"          : "./index",
-  "scripts"       : { "install": "node-gyp configure build" }
+  "name": "rbytes",
+  "version": "1.0.0",
+  "description": "Generates cryptographically secure random byte sequences",
+  "author": "Aleksander Williams",
+  "contributors": [],
+  "engines": {
+    "node": ">=0.3.0"
+  },
+  "url": "http://akdubya.github.com/rbytes/",
+  "keywords": [
+    "random",
+    "crypto"
+  ],
+  "main": "./index",
+  "scripts": {
+    "install": "node-gyp configure build"
+  }
 }
