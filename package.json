@@ -13,6 +13,7 @@
     "crypto"
   ],
   "main": "./index",
+  "repository"    : { "type": "git", "url": "https://github.com/Soarez/rbytes.git" },  
   "scripts": {
     "install": "node-gyp configure build"
   }
